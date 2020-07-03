@@ -37,6 +37,10 @@ body {
   height: 50px;
 }
 
+.icon-attribution {
+  font-size: 55%;
+}
+
 /* Sign up form styles */
 #mc_embed_signup_scroll #mce-EMAIL {
   background-color: #000;
