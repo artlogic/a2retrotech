@@ -33,7 +33,17 @@ body {
   line-height: 60px;
 }
 
-.icon {
+/* Icon Styles */
+.alert {
+  height: 45px;
+  margin-bottom: 0;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.floppy {
   height: 50px;
 }
 
