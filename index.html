@@ -108,11 +108,10 @@
     </section>
 
     <!-- Begin Sendinblue Form -->
-    <div class="sib-form" style="text-align: center;
-             background-color: #000000; padding: 0;">
+    <div class="sib-form" style="text-align: center; background-color: #000000; padding: 0;">
       <div id="sib-form-container" class="sib-form-container">
         <div id="error-message" class="sib-form-message-panel"
-          style="text-align:left; font-family:&quot;VT323&quot;, monospace; color:#09ff00; background-color:#000000; border-radius:3px; border-color:#09ff00;max-width:540px;">
+          style="text-align:left; font-family:&quot;VT323&quot;, monospace; color:#09ff00; background-color:#000000; border-radius:3px; border-color:#09ff00; max-width:540px;">
           <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
             <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
               <path
@@ -125,7 +124,7 @@
         </div>
         <div></div>
         <div id="success-message" class="sib-form-message-panel"
-          style="text-align:left; font-family:&quot;VT323&quot;, monospace; color:#09ff00; background-color:#000000; border-radius:3px; border-color:#09ff00;max-width:540px;">
+          style="text-align:left; font-family:&quot;VT323&quot;, monospace; color:#09ff00; background-color:#000000; border-radius:3px; border-color:#09ff00; max-width:540px;">
           <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
             <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
               <path
@@ -138,14 +137,14 @@
         </div>
         <div></div>
         <div id="sib-container" class="sib-container--large sib-container--vertical"
-          style="text-align:center; background-color:rgba(0,0,0,1); max-width:100%; border-radius:3px; border-width:0px; border-color:#000000; border-style:solid; padding: 0;">
+          style="text-align:center; background-color:rgba(0,0,0,1); max-width: 100%; border-radius:3px; border-width:0px; border-color:#000000; border-style:solid; padding: 0;">
           <form id="sib-form" method="POST"
-            action="https://5a2dc4a1.sibforms.com/serve/MUIEAKWfN3b2UZvQV8k_QK7E1-DLyEEeSihqWjfkizRIAwZKo_M5A3zW07zAti9G8KZdouHIctyNwttFf8uQDcEvKCZJpPudyJuRc4xTKlCsoFywNJYdtGtZ2135fH2ZC9z1qpyHWpS6jPAxFZBV1YsI-FTzrJRF8mEw6TMhU7MxtNgzpfdABC64x9Gi3F_mT5ewxbjiSWB1i8Fv"
+            action="https://5a2dc4a1.sibforms.com/serve/MUIEAMjcn5UorDolg9VnNkuEtNRszl_ert-mkGG9rmFyfuA9PmoWUcR86-bHdPZpbeWtFuG_4zUh-lSW6p5SV1sqwkS-iY-ctlUxxavNseUIeASN_8Sv6oI6p483ZHnry6HFGwa6vNSnKMj0Nv0jsFB-c8j2QKCb_EGvSafz5IYOIJQ2Gh27tGXfwPG_7qq5MJP5KztTvdfZULoA"
             data-type="subscription">
             <div style="padding: 8px 0;">
               <div class="sib-form-block"
                 style="text-align:left; font-weight:700; font-family:&quot;VT323&quot;, monospace; color:#09ff00; background-color:transparent;">
-                <h2>Join our low-traffic Mailing List:</h2>
+                <h2>Join our low-traffic Mailing List</h2>
               </div>
             </div>
             <div style="padding: 8px 0;">
@@ -175,29 +174,9 @@
               </div>
             </div>
             <div style="padding: 8px 0;">
-              <div class="sib-captcha sib-form-block">
-                <div class="form__entry entry_block">
-                  <div class="form__label-row ">
-                    <script>
-                      function handleCaptchaResponse() {
-                        var event = new Event('captchaChange');
-                        document.getElementById('sib-captcha').dispatchEvent(event);
-                      }
-                    </script>
-                    <div class="g-recaptcha sib-visible-recaptcha" id="sib-captcha"
-                      data-sitekey="6LfT9usdAAAAAJPeqFcm4dKPuLBi3ZkBYMnZQNLg" data-callback="handleCaptchaResponse">
-                    </div>
-                  </div>
-                  <label class="entry__error entry__error--primary"
-                    style="text-align:left; font-family:&quot;VT323&quot;, monospace; color:#09ff00; background-color:#000000; border-radius:3px; border-color:#09ff00;">
-                  </label>
-                </div>
-              </div>
-            </div>
-            <div style="padding: 8px 0;">
               <div class="sib-form-block" style="text-align: left">
                 <button class="sib-form-block__button sib-form-block__button-with-loader"
-                  style="text-align:left; font-size: 1.6rem; font-family:&quot;VT323&quot;, monospace; color:#000000; background-color:#09ff00; border-radius:3px; border-width:0px;"
+                  style="text-align:left; font-size: 1.6rem; font-weight:700; font-family:&quot;VT323&quot;, monospace; color:#000000; background-color:#09ff00; border-radius:3px; border-width:0px;"
                   form="sib-form" type="submit">
                   <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
                     <path
@@ -216,35 +195,6 @@
     </div>
     <!-- End Sendinblue Form -->
 
-    <!--<section>
-      <h2 class="pt-3 pb-1">Subscribe to the Low-traffic Mailing List:</h2>
-      <p>Get updates and reminders about the meetup (~2 emails per month).</p>
-      <div id="mc_embed_signup">
-        <form action="https://kruth.us5.list-manage.com/subscribe/post?u=cc1b1f70df95bbf4a6c7672ff&amp;id=5b30d6685f"
-          method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
-          <div id="mc_embed_signup_scroll" class="row">
-            <div class="col-12 col-md-10">
-              <div class="form-group">
-                <label class="sr-only">Email
-                  address</label>
-                <input type="email" value="" name="EMAIL" class="email form-control form-control-lg" id="mce-EMAIL"
-                  placeholder="name@example.com" />
-              </div>
-            </div> -->
-    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups -->
-    <!--<div style="position: absolute; left: -5000px" aria-hidden="true">
-              <input type="text" name="b_cc1b1f70df95bbf4a6c7672ff_5b30d6685f" tabindex="-1" value="" />
-            </div>
-            <div class="col-12 col-md-2">
-              <div class="form-group">
-                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
-                  class="button btn btn-lg btn-primary" />
-              </div>
-            </div>
-          </div>
-        </form>
-      </div>
-    </section>-->
   </div>
   <footer class="footer">
     <div class="container d-flex flex-row justify-content-center">
@@ -294,8 +244,6 @@
     var AUTOHIDE = Boolean(0);
   </script>
   <script src="https://sibforms.com/forms/end-form/build/main.js"></script>
-
-  <script src="https://www.google.com/recaptcha/api.js?hl=en"></script>
 </body>
 
 </html>
