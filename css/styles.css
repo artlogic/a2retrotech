@@ -8,15 +8,15 @@ html {
 body {
   background-color: #000;
   color: rgba(0, 255, 0, 1);
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
   font-size: 1.6em;
   margin-bottom: 60px;
 }
 
 /* Header Styles */
 header {
-  margin-top: .75em;
-  margin-bottom: .75em;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
 }
 
 .header-content {
@@ -26,8 +26,8 @@ header {
 
 /* Section Styles */
 section {
-  margin-top: .5em;
-  margin-bottom: .5em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 
 /* Link Styles */
@@ -38,7 +38,12 @@ section {
 }
 
 .link:hover {
-  color: rgba(0, 255, 0, .8);
+  color: rgba(0, 255, 0, 0.8);
+}
+
+/* Figure Styles */
+figcaption {
+  color: rgba(0, 255, 0, 1) !important;
 }
 
 /* Footer Styles */
@@ -54,8 +59,8 @@ section {
 .alert {
   height: 45px;
   margin-bottom: 0;
-  padding-top: .75rem;
-  padding-bottom: .75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   padding-left: 0;
   padding-right: 0;
 }
