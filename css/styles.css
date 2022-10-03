@@ -6,6 +6,24 @@ body {
   font-size: 1.6em;
 }
 
+/* Header Styles */
+h1 {
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Nav Styles - commented out until nav is needed
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+li {
+  list-style: none;
+} */
+
 /* Sign up form styles */
 #mc_embed_signup_scroll #mce-EMAIL {
   background-color: #000;
