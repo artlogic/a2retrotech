@@ -1,76 +1,9 @@
-/* HTML Styles */
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 /* Body Styles */
 body {
-  background-color: #000;
-  color: rgba(0, 255, 0, 1);
+  background-color: rgb(33, 38, 33);
+  color: rgb(112, 255, 112);
   font-family: "VT323", monospace;
   font-size: 1.6em;
-  margin-bottom: 60px;
-}
-
-/* Header Styles */
-header {
-  margin-top: 0.75em;
-  margin-bottom: 0.75em;
-}
-
-.header-content {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
-/* Section Styles */
-section {
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-}
-
-/* Link Styles */
-.link {
-  color: rgba(0, 255, 0, 1);
-  text-decoration: underline;
-  font-weight: bold;
-}
-
-.link:hover {
-  color: rgba(0, 255, 0, 0.8);
-}
-
-/* Figure Styles */
-figcaption {
-  color: rgba(0, 255, 0, 1) !important;
-}
-
-/* Footer Styles */
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  line-height: 60px;
-}
-
-/* Icon Styles */
-.alert {
-  height: 45px;
-  margin-bottom: 0;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.icon {
-  height: 50px;
-}
-
-.icon-attribution {
-  font-size: 55%;
 }
 
 /* Sign up form styles */
