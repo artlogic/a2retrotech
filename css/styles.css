@@ -160,6 +160,14 @@ small {
   }
 }
 
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  body {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+}
+
 /* Sign up form styles */
 #mc_embed_signup_scroll #mce-EMAIL {
   background-color: #000;
