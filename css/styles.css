@@ -53,6 +53,12 @@ small {
   padding: 0.2em;
 }
 
+/* Form Styles */
+form {
+  margin-left: -1em;
+  margin-right: -1em;
+}
+
 /* Grid Containers Styles */
 .container {
   display: grid;
