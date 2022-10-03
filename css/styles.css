@@ -24,6 +24,29 @@ li {
   list-style: none;
 } */
 
+/* Main Styles */
+h2,
+h3 {
+  margin-bottom: 0;
+}
+
+a {
+  color: rgb(112, 255, 112);
+}
+
+a:hover {
+  color: rgba(112, 255, 112, 0.75);
+}
+
+p {
+  text-align: justify;
+}
+
+small {
+  font-size: 0.8em;
+  margin-top: 0.25em;
+}
+
 /* Sign up form styles */
 #mc_embed_signup_scroll #mce-EMAIL {
   background-color: #000;
