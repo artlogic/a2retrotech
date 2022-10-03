@@ -50,6 +50,7 @@ small {
 /* Icon Styles */
 .icon {
   height: 50px;
+  padding: 0.2em;
 }
 
 /* Grid Containers Styles */
