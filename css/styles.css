@@ -175,16 +175,16 @@ small {
 
 /* Sign up form styles */
 #mc_embed_signup_scroll #mce-EMAIL {
-  background-color: #000;
-  border: 1px solid #0f0;
+  background-color: #212621;
+  border: 1px solid #70ff70;
   border-radius: 0;
-  color: #0f0;
+  color: #70ff70;
   font-size: 1em;
 }
 
 #mc_embed_signup_scroll #mc-embedded-subscribe {
-  background-color: #0f0;
-  border: 1px solid #0f0;
+  background-color: #70ff70;
+  border: 1px solid #70ff70;
   border-radius: 0;
   color: #000;
   font-size: 1em;
@@ -192,21 +192,21 @@ small {
 }
 
 #mc_embed_signup_scroll #mc-embedded-subscribe:hover {
-  background-color: #0b0;
-  border: 1px solid #0b0;
-  color: #fff;
+  background-color: #70ff70;
+  border: 1px solid #70ff70;
+  color: #70ff70;
 }
 
 #mc_embed_signup_scroll #mce-EMAIL::-webkit-input-placeholder {
   /* Edge */
-  color: #0f0;
+  color: #70ff70;
 }
 
 #mc_embed_signup_scroll #mce-EMAIL:-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  color: #0f0;
+  color: #70ff70;
 }
 
 #mc_embed_signup_scroll #mce-EMAIL::placeholder {
-  color: #0f0;
+  color: rgb(112, 255, 112);
 }
