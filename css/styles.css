@@ -11,6 +11,7 @@ h1 {
   margin-bottom: 0;
   display: flex;
   align-items: center;
+  font-weight: 400;
 }
 
 /* Nav Styles - commented out until nav is needed
@@ -28,6 +29,7 @@ li {
 h2,
 h3 {
   margin-bottom: 0;
+  font-weight: 400;
 }
 
 a {
